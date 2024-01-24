@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #eee;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around; /* Gleichmäßige Verteilung der Elemente */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #cac6c68c;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto; /* Zentrieren der Tabelle */
+    border-collapse: collapse;
+    width: 80%; /* Breite der Tabelle anpassen */
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: #cc1010;
+}
+
+/* Neue Stile für Ist- und Soll-Temperaturspalten */
+td.ist-temp, th.ist-temp,
+td.soll-temp, th.soll-temp {
+    text-align: center;
+    width: 20%; /* Gleichmäßige Aufteilung der Spaltenbreite */
+}
