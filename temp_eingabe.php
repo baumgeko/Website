@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <section id="content">
     <h2>Solltemperaturen ändern</h2>
 
-    <form method="post" action="temp:anzeige.php">
+    <form method="post" action="temp_anzeige.php">
     <label for="kuecheSollTemp">Küche (°C):</label>
     <div class="input-container">
         <input type="number" name="kuecheSollTemp" step="0.1" value="<?php echo $_SESSION['kuecheSollTempC']; ?>" max="45.0">
