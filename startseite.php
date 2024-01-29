@@ -30,6 +30,8 @@ $_SESSION['aktuelleBueroTempC'] = isset($_SESSION['aktuelleBueroTempC']) ? $_SES
         <li><a href="temp_eingabe.php">SollTempEingabe</a></li>
         <li><a href="temp_log.php">TempLog</a></li>
         <li><a href="impressum.php">Impressum</a></li>
+        <li><a href="1Seite.php">1Seite</a></li>
+        <li><a href="1Eingabe.php">1Eingabe</a></li>
     </ul>
 </nav>
 
