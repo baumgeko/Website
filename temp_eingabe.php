@@ -50,25 +50,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <section id="content">
     <h2>Solltemperaturen ändern</h2>
 
-    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-        <label for="kuecheSollTemp">Küche (°C):</label>
-        <div class="input-container">
-            <input type="number" name="kuecheSollTemp" step="0.1" value="<?php echo $_SESSION['kuecheSollTempC']; ?>" max="45.0">
-            <span>°C / <?php echo celsiusToFahrenheit($_SESSION['kuecheSollTempC']); ?> °F</span>
-        </div>
+    <form method="post" action="zielseite.php">
+    <label for="kuecheSollTemp">Küche (°C):</label>
+    <div class="input-container">
+        <input type="number" name="kuecheSollTemp" step="0.1" value="<?php echo $_SESSION['kuecheSollTempC']; ?>" max="45.0">
+        <span>°C / <?php echo celsiusToFahrenheit($_SESSION['kuecheSollTempC']); ?> °F</span>
+    </div>
 
-        <br>
+    <br>
 
-        <label for="bueroSollTemp">Büro (°C):</label>
-        <div class="input-container">
-            <input type="number" name="bueroSollTemp" step="0.1" value="<?php echo $_SESSION['bueroSollTempC']; ?>" max="45.0">
-            <span>°C / <?php echo celsiusToFahrenheit($_SESSION['bueroSollTempC']); ?> °F</span>
-        </div>
+    <label for="bueroSollTemp">Büro (°C):</label>
+    <div class="input-container">
+        <input type="number" name="bueroSollTemp" step="0.1" value="<?php echo $_SESSION['bueroSollTempC']; ?>" max="45.0">
+        <span>°C / <?php echo celsiusToFahrenheit($_SESSION['bueroSollTempC']); ?> °F</span>
+    </div>
 
-        <br>
+    <br>
 
-        <input type="submit" value="Speichern">
-    </form>
+    <input type="submit" value="Speichern">
+</form>
 </section>
 
 </body>
