@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <ul>
         <li><a href="startseite.php">Startseite</a></li>
         <li><a href="temp_anzeige.php">TempAnzeige</a></li>
-        <li><a href="temp_eingabe.php">TempEingabe</a></li>
+        <li><a href="temp_eingabe.php">SollTempEingabe</a></li>
         <li><a href="temp_log.php">TempLog</a></li>
         <li><a href="impressum.php">Impressum</a></li>
     </ul>
